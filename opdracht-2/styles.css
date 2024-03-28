@@ -1,8 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins, sans-serif;
+}
+    /* (oranje #DE6127, lichtgrijs #e8e8e8, donkergrijs #737373 en de kleuren voor de bolletjs, #faa0c7, #272729, #928471 en #c2c2b4) */
+
 .product {
     /* "auto" aan de zijkanten zorgt ervoor dat het element in het midden komt te staan*/
     margin: 80px auto;
     /* Dit element heeft een vaste breedte van 350 pixels */
     width: 350px;
 }
-
+.product-preview {
+    position: relative;
+}
+.product-preview-image {
+    width: 100%;
+}
+.product-preview-icon {
+    position: absolute;
+    height: 18px;
+    top: 495px;
+    right: 15px;
+}
+.product-preview-label {
+    color: #DE6127;
+    background-color: #e8e8e8;
+    font-weight: 500;
+    padding: 10px 25px;
+    position: absolute;
+    top: 60px;
+    left: -66px;
+    transform: rotate(270deg);
+}
+.product-details {
+    margin-top: -15px;
+}
+h4 {
+    color: #737373;
+    font-size: 12px;
+    margin-bottom: -10px;
+}
+h2 {
+    font-size: 16px;
+}
+.product-color-pink {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-color: #faa0c7;
+    border-radius: 100%;
+}
+.product-color-graphite {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-color: #272729;
+    border-radius: 100%;
+}
+.product-color-brown {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-color: #928471;
+    border-radius: 100%;
+}
+.product-color-grey {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-color: #c2c2b4;
+    border-radius: 100%;
+}
 /* - Vul dit document aan met jouw eigen css! - */
